@@ -25,9 +25,9 @@ function App() {
       <Route
         path="/create"
         element={
-          <protectedRoute>
+          <ProtectedRoute>
             <CreatePost />
-          </protectedRoute>
+          </ProtectedRoute>
         }
       />
 
@@ -36,18 +36,18 @@ function App() {
       <Route
         path="/edit/:id"
         element={
-          <protectedRoute>
+          <ProtectedRoute>
             <EditPost />
-          </protectedRoute>
+          </ProtectedRoute>
         }
       />
 
       <Route
         path="/myposts"
         element={
-          <protectedRoute>
+          <ProtectedRoute>
             <MyPosts />
-          </protectedRoute>
+          </ProtectedRoute>
         }
       />
 
