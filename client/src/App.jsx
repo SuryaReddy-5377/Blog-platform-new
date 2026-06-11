@@ -8,7 +8,7 @@ import BlogDetails from "./pages/BlogDetails";
 import EditPost from "./pages/EditPost";
 import MyPosts from "./pages/MyPosts";
 
-import ProtectedRoute from "./components/protectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
 
